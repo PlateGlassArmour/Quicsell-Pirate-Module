@@ -1,0 +1,31 @@
+{
+	"Name": "Quicsell Pirate Module",
+	"Author": "PlateGlassArmour",
+	"Enabled": true,
+	"DependsOn": [
+		"CustomComponents",
+		"MechEngineer",
+		"RogueTech Core",
+		"Quicsell Module"
+	],
+	"ConflictsWith": [
+		"RogueTech Enhanced",
+		"RogueTech Enhanced Clans"
+	],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.AmmoCategoryEnumeration",
+            "path": "AmmoCategory.json"
+        }
+    ],
+	"Manifest": [
+		{
+			"Type": "MechDef",
+			"Path": "Mech"
+		},
+		{
+			"Type": "ChassisDef",
+			"Path": "Chassis"
+		}
+]
+}
