@@ -18,7 +18,7 @@
       {
         "Location": "CenterTorso",
         "CategoryID": "Structure",
-        "DefID": "default_structureslots_Quicsell",
+        "DefID": "default_structureslots_endosteel_Quicsell",
         "Type": "Upgrade"
       }
     ]
@@ -100,7 +100,7 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_valkyrie_VLK-QS1P",
     "Name": "Valkyrie",
-    "Details": "Quicsell's Light Missile Sniper. The VLK-QS1P has two LRM20 launchers and enough heat dissapation to fire them all day. Just make sure you remember to stock up on genuine Quicsell brand amunition before you head out, since you're going to be sending tons of it towards your enemies!\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "VariantName": "VLK-QS1P",
@@ -113,8 +113,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Missile Sniper",
-  "YangsThoughts": "Pretty boring mech to be honest. Other than their knock-off stealth system, it's just a bog standard LRM40 boat crammed into a 30 ton mech. Due to weight limitations for the ammo, it'll struggle with extended engagements.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",

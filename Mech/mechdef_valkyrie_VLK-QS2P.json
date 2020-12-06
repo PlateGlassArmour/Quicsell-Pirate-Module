@@ -11,23 +11,7 @@
       "unit_generic",
       "unit_quicsell",
       "unit_mechtool",
-      "locals",
-      "magistracyofcanopus",
-      "marian",
-      "taurianconcordat",
-      "outworld",
-      "oberon",
-      "castile",
-      "valkyrate",
-      "tortuga",
-      "circinus",
-      "illyrian",
-      "lothian",
-      "elysia",
-      "jarnfolk",
-      "hanse",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "auriganpirates"
     ],
     "tagSetSourceFile": ""
   },
@@ -41,7 +25,7 @@
     "UIName": "Valkyrie VLK-QS2P",
     "Id": "mechdef_valkyrie_VLK-QS2P",
     "Name": "Valkyrie VLK-QS2P",
-    "Details": "Quicsell's Light PPC Brawler. The VLK-QS2P is our lightest mech to sport the LBX PPC. With the torso mount weapon, you can feel free to pound on your enemies while still firing on them with a devastating weapon. Comes equped with two Quicsell grenade satchels, free of charge.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "simGameMechPartCost": 77816,
@@ -471,7 +455,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_LBXPPC_Quicsell",
+      "ComponentDefID": "Weapon_PPZ_JuryRigged",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",

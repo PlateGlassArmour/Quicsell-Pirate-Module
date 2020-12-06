@@ -100,7 +100,7 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_valkyrie_VLK-QS3P",
     "Name": "Valkyrie",
-    "Details": "Quicsell's Light Laser Backstabber. The VLK-QS3P makes for an unparalleled scout. Using the very best scanning and vision boosting technology that Quicsell produces, and capable of moving around even rough terrain with startling speed, the VLK-QS3P is a must have for any lance.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "VariantName": "VLK-QS3P",
@@ -113,8 +113,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Laser Backstabber",
-  "YangsThoughts": "Decently armored for a fast scouting light, this mech is mostly limited by it's chem laser ammo, as it has nothing to fall back on once that runs out. Oh, and swap out that cockpit ASAP, while it does provide for very good views, it's a deathtrap, with almost no cockpit armor at all. It's not even armored glass!",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",

@@ -72,7 +72,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-QS1P",
     "Name": "Panther",
-    "Details": "Quicsell's Light Ballistic Sniper. The PNT-QS1P is one of our most ambitios mechs. We've managed to fit two artillery pieces on a single light mech, along with enough ammo to last the entire battle. So long as you keep it well protected, the PNT-QS1P will supply all of your fire support needs.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "PNT-QS1P",
@@ -84,8 +84,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Ballistic Sniper",
-  "YangsThoughts": "This thing is just silly, boss. One half of the mech is just full of heatsinks. I don't think there's a single heatsink left in the engine itself, which has been stripped down the the very minimum required to run a mech this size. All to fit two of those knock-off artillery pieces into a light mech, for some reason I cannot fathom.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_panther",

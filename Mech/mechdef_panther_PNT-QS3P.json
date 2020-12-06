@@ -11,23 +11,7 @@
       "unit_generic",
       "unit_quicsell",
       "unit_mechtool",
-      "locals",
-      "magistracyofcanopus",
-      "marian",
-      "taurianconcordat",
-      "outworld",
-      "oberon",
-      "castile",
-      "valkyrate",
-      "tortuga",
-      "circinus",
-      "illyrian",
-      "lothian",
-      "elysia",
-      "jarnfolk",
-      "hanse",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "auriganpirates"
     ],
     "tagSetSourceFile": ""
   },
@@ -41,7 +25,7 @@
     "UIName": "Panther PNT-QS3P",
     "Id": "mechdef_panther_PNT-QS3P",
     "Name": "Panther PNT-QS3P",
-    "Details": "Quicsell's Light PPC Backstabber. The PNT-QS3P is a light mech mounting one of Quicsell's strongest weapons, the Heavy Streak PPC. While it can't fire constantly due to the heat requirements of the weapon, the large thermal mass addon allows for safe firing without injuring the pilot.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "simGameMechPartCost": 131214,
@@ -84,10 +68,10 @@
     {
       "Location": "CenterTorso",
       "CurrentArmor": 85,
-      "CurrentRearArmor": 34,
+      "CurrentRearArmor": 31,
       "CurrentInternalStructure": 55,
       "AssignedArmor": 85,
-      "AssignedRearArmor": 34,
+      "AssignedRearArmor": 31,
       "DamageLevel": "Functional"
     },
     {
@@ -101,10 +85,10 @@
     },
     {
       "Location": "RightArm",
-      "CurrentArmor": 20,
+      "CurrentArmor": 30,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 30,
-      "AssignedArmor": 20,
+      "AssignedArmor": 30,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
@@ -129,8 +113,30 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_impactresistant",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Cockpit_Generic_Small",
+      "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -152,7 +158,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_Breaching",
+      "ComponentDefID": "Gear_FCS_Critical",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -306,7 +312,18 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_HEAVY_Streak_Quicsell",
+      "ComponentDefID": "Weapon_PPCER_JRCAP",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PPC_TSEMP",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -320,17 +337,6 @@
       "ComponentDefID": "Weapon_LRM_FLARELAUNCHER_AMS",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,
       "prefabName": null,

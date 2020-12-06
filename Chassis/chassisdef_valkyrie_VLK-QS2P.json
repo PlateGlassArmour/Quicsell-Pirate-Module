@@ -78,7 +78,7 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_valkyrie_VLK-QS2P",
     "Name": "Valkyrie",
-    "Details": "Quicsell's Light PPC Brawler. The VLK-QS2P is our lightest mech to sport the LBX PPC. With the torso mount weapon, you can feel free to pound on your enemies while still firing on them with a devastating weapon. Comes equped with two Quicsell grenade satchels, free of charge.\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "VariantName": "VLK-QS2P",
@@ -91,8 +91,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light PPC Brawler",
-  "YangsThoughts": "An odd one. Normally, light mechs mounting a full PPC try to stay out of the fight and snipe from afar. This mech is designed to wail on the enemy with it's fists while unloading fire on them. Not sure I'd reccomend it, personally, seeing as it is still a light mech, but it's up to you.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",

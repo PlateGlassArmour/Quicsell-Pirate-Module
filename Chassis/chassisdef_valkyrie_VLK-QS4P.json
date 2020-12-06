@@ -18,7 +18,7 @@
       {
         "Location": "CenterTorso",
         "CategoryID": "Structure",
-        "DefID": "default_structureslots_Quicsell",
+        "DefID": "default_structureslots_endosteel_Quicsell",
         "Type": "Upgrade"
       }
     ]
@@ -100,7 +100,7 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_valkyrie_VLK-QS4P",
     "Name": "Valkyrie",
-    "Details": "Quicsell's Light Ballistic Support. The VLK-QS4P is amred with a light rotary rifle for enemies that decide to get close, but the main purpose of the mech is the impressive array of detection and E-war gear that can support other Quicsell units on the field!\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "VariantName": "VLK-QS4P",
@@ -113,8 +113,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Ballistic Support",
-  "YangsThoughts": "This thing may be sold as an E-war mech, but that's no excuse to only give it one gun. If I were you I'd rip out some of the unnecessary weight and give it some proper weaponry. Oh, and watch that left arm, the whole thing is packed with ammo.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",

@@ -100,7 +100,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-QS3P",
     "Name": "Panther",
-    "Details": "Quicsell's Light PPC Backstabber. The PNT-QS3P is a light mech mounting one of Quicsell's strongest weapons, the Heavy Streak PPC. While it can't fire constantly due to the heat requirements of the weapon, the large thermal mass addon allows for safe firing without injuring the pilot.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "PNT-QS3P",
@@ -112,8 +112,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light PPC Backstabber",
-  "YangsThoughts": "Whoever came up with this thing was crazy. Heavy PPC on a light mech, XL internal combustion engine, and trying to push an ICE mech into a speedster by replacing the entire leg assemblies. Oh, and be careful with that PPC. If you fired it from a normal light mech, it'd practically fry you alive thanks to the backwash from the heat.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_panther",

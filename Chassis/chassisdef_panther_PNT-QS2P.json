@@ -78,7 +78,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-QS2P",
     "Name": "Panther",
-    "Details": "Quicsell's Light Missile Brawler. The PNT-QS2P carries just enough weaponry to be an annoying target. The main selling feature is the survivability and maneuverability. Included is our specially imported harjel technology to allow every part of the mech to repair it's own armor over time.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "PNT-QS2P",
@@ -90,8 +90,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Missile Brawler",
-  "YangsThoughts": "This is a tough light mech, true. The problem is the weaponry. The whole mech has less than 30 missile tubes and no other weapons. The so called self repair capabilites are mostly a gimick. It's like watching paint dry when damage happens, and it's only really useful for scratch damage from infantry weapons and the like.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_panther",

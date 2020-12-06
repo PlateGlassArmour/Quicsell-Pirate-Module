@@ -78,7 +78,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-QS4P",
     "Name": "Panther",
-    "Details": "Quicsell's Light Laser Support. The PNT-QS4P packs a wide variety of support equipment to assist lancemates. From Searchlights and EWS to Limpet Mines and Firebombs that can be thrown by the mech to hit your enemies.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "VariantName": "PNT-QS4P",
@@ -90,8 +90,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Light Laser Support",
-  "YangsThoughts": "Another decent all-rounder from Quicsell. So long as you mind the very low stability from those leg actuator replacements, and keep an eye on your heat when enemies are packing flamers, you should do alright.",
+  "StockRole": "Former Quicsell Mech",
+  "YangsThoughts": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_panther",

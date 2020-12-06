@@ -12,25 +12,8 @@
       "unit_quicsell",
       "unit_littlefriend",
       "unit_stealth",
-      "unit_predator",
       "unit_mechtool",
-      "locals",
-      "magistracyofcanopus",
-      "marian",
-      "taurianconcordat",
-      "outworld",
-      "oberon",
-      "castile",
-      "valkyrate",
-      "tortuga",
-      "circinus",
-      "illyrian",
-      "lothian",
-      "elysia",
-      "jarnfolk",
-      "hanse",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "auriganpirates"
     ],
     "tagSetSourceFile": ""
   },
@@ -44,7 +27,7 @@
     "UIName": "Valkyrie VLK-QS4P",
     "Id": "mechdef_valkyrie_VLK-QS4P",
     "Name": "Valkyrie VLK-QS4P",
-    "Details": "Quicsell's Light Ballistic Support. The VLK-QS4P is amred with a light rotary rifle for enemies that decide to get close, but the main purpose of the mech is the impressive array of detection and E-war gear that can support other Quicsell units on the field!\n\n<b><color=#e62e00>Quirk: Improved Communications</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.97</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "valkyrie"
   },
   "simGameMechPartCost": 78529,
@@ -59,46 +42,46 @@
   "Locations": [
     {
       "Location": "Head",
-      "CurrentArmor": 30,
+      "CurrentArmor": 35,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 16,
-      "AssignedArmor": 30,
+      "AssignedArmor": 35,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftArm",
-      "CurrentArmor": 40,
+      "CurrentArmor": 50,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 40,
+      "AssignedArmor": 50,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "LeftTorso",
-      "CurrentArmor": 55,
-      "CurrentRearArmor": 30,
+      "CurrentArmor": 65,
+      "CurrentRearArmor": 35,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 55,
-      "AssignedRearArmor": 30,
+      "AssignedArmor": 65,
+      "AssignedRearArmor": 35,
       "DamageLevel": "Functional"
     },
     {
       "Location": "CenterTorso",
       "CurrentArmor": 65,
-      "CurrentRearArmor": 33,
+      "CurrentRearArmor": 36,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 65,
-      "AssignedRearArmor": 33,
+      "AssignedRearArmor": 36,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightTorso",
-      "CurrentArmor": 55,
+      "CurrentArmor": 60,
       "CurrentRearArmor": 30,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 55,
+      "AssignedArmor": 60,
       "AssignedRearArmor": 30,
       "DamageLevel": "Functional"
     },
@@ -113,19 +96,19 @@
     },
     {
       "Location": "LeftLeg",
-      "CurrentArmor": 45,
+      "CurrentArmor": 50,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 45,
+      "AssignedArmor": 50,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "RightLeg",
-      "CurrentArmor": 45,
+      "CurrentArmor": 50,
       "CurrentRearArmor": 0,
       "CurrentInternalStructure": 35,
-      "AssignedArmor": 45,
+      "AssignedArmor": 50,
       "AssignedRearArmor": 0,
       "DamageLevel": "Functional"
     }
@@ -133,7 +116,84 @@
   "inventory": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Aftermarket_Stealth",
+      "ComponentDefID": "Special_JumpBooster_3",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Linked_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Linked_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Linked_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Linked_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Linked_stealth",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Linked_stealth",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -166,7 +226,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_FCS_Recoil_Quicsell",
+      "ComponentDefID": "Gear_SensorsFCS_Quicsell",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -176,29 +236,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensors_Searchlight_Quicsell",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_ProbeKing_Quicsell",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Guard-dog_EWS_Quicsell",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -210,7 +248,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Engine_Heatsinks_Removal_-2_Quicsell",
+      "ComponentDefID": "Gear_Engine_Heatsinks_Removal_-4_Quicsell",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -320,18 +358,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Lite_Quicsell",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Lite_Quicsell",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -342,7 +369,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Lite_Quicsell",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -353,7 +380,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Lite_Quicsell",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -364,7 +391,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Lite_Quicsell",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -375,7 +402,18 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Rotary_Rifle_Light",
+      "ComponentDefID": "Weapon_Gauss_Taser",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Gauss_Taser",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -386,7 +424,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_LRM_FLARELAUNCHER_AMS",
+      "ComponentDefID": "Hand_Weapon_Flamer_Sticky",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -396,61 +434,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Light",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Light",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Light_APFSDS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Light_APFSDS",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
@@ -498,6 +481,83 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Taser",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Taser",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Taser",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Taser",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "SimGameUID": "",
       "GUID": null,

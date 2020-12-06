@@ -6,7 +6,8 @@
 		"CustomComponents",
 		"MechEngineer",
 		"RogueTech Core",
-		"Quicsell Module"
+		"Quicsell Early Game Omnimechs",
+		"PirateTech"
 	],
 	"ConflictsWith": [
 		"RogueTech Enhanced",

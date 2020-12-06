@@ -12,23 +12,7 @@
       "unit_quicsell",
       "unit_indirectFire",
       "unit_mechtool",
-      "locals",
-      "magistracyofcanopus",
-      "marian",
-      "taurianconcordat",
-      "outworld",
-      "oberon",
-      "castile",
-      "valkyrate",
-      "tortuga",
-      "circinus",
-      "illyrian",
-      "lothian",
-      "elysia",
-      "jarnfolk",
-      "hanse",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "auriganpirates"
     ],
     "tagSetSourceFile": ""
   },
@@ -42,7 +26,7 @@
     "UIName": "Panther PNT-QS2P",
     "Id": "mechdef_panther_PNT-QS2P",
     "Name": "Panther PNT-QS2P",
-    "Details": "Quicsell's Light Missile Brawler. The PNT-QS2P carries just enough weaponry to be an annoying target. The main selling feature is the survivability and maneuverability. Included is our specially imported harjel technology to allow the mech to repair it's own armor over time.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "simGameMechPartCost": 131214,
@@ -515,17 +499,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_SRM_SRM2_STREAK_Quicsell",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "BoltOn_LRM_Thunderbolt_10_2pack",
       "ComponentDefType": "Weapon",
@@ -549,7 +522,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_SRM4_STREAK_Quicsell",
+      "ComponentDefID": "Weapon_SRM_SRM6_STREAK-jrig",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -571,7 +544,29 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Quicsell_SRM_double",
+      "ComponentDefID": "Ammo_AmmunitionBox_Acid_SRM_half",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM_half",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "SimGameUID": "",

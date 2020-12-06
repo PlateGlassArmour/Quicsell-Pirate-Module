@@ -11,23 +11,7 @@
       "unit_quicsell",
       "unit_indirectFire",
       "unit_mechtool",
-      "locals",
-      "magistracyofcanopus",
-      "marian",
-      "taurianconcordat",
-      "outworld",
-      "oberon",
-      "castile",
-      "valkyrate",
-      "tortuga",
-      "circinus",
-      "illyrian",
-      "lothian",
-      "elysia",
-      "jarnfolk",
-      "hanse",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "auriganpirates"
     ],
     "tagSetSourceFile": ""
   },
@@ -41,7 +25,7 @@
     "UIName": "Panther PNT-QS1P",
     "Id": "mechdef_panther_PNT-QS1P",
     "Name": "Panther PNT-QS1P",
-    "Details": "Quicsell's Light Ballistic Sniper. The PNT-QS1P is one of our most ambitious mechs. We've managed to fit two artillery pieces on a single light mech, along with enough ammo to last the entire battle. So long as you keep it well protected, the PNT-QS1P will supply all of your fire support needs.\n\n<b><color=#e62e00>Quirk: Aerial Assault</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.98</color></b>",
+    "Details": "Formerly a Quicsell mech. Then Pirates got ahold of it. This should worry you.",
     "Icon": "uixTxrIcon_panther"
   },
   "simGameMechPartCost": 131214,
@@ -350,7 +334,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Rifle_Howitzer",
+      "ComponentDefID": "Weapon_Artillery_THUMPER_Cannon",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -372,7 +356,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Rifle_Howitzer",
+      "ComponentDefID": "Weapon_SawedOff_THUMPER",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "SimGameUID": "",
@@ -383,18 +367,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy_Caseless",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy_Caseless",
+      "ComponentDefID": "Ammo_AmmunitionBox_Inferno_Thumper",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -405,18 +378,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy_Caseless",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "SimGameUID": "",
-      "GUID": null,
-      "prefabName": null,
-      "hasPrefabName": false,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy_Caseless",
+      "ComponentDefID": "Ammo_AmmunitionBox_Inferno_Thumper",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "SimGameUID": "",
